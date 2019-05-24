@@ -124,7 +124,7 @@ const Formio = (function() {
                     if(submissions.length !== 0) {
                         const payload = {
                             'form': {
-                                '_id': '5bbd06e474dabf01d50fd082'
+                                '_id': config.user_formId
                             },
                             'user': {
                                 '_id': submissions[0]._id

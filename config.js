@@ -1,5 +1,5 @@
 const config = {
-    jwt_secret: 'SelfDesign2018'
+    jwt_secret: 'SECRET GOES HERE'
 }
 
 module.exports = config;

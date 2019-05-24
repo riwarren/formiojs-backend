@@ -2,6 +2,11 @@
 Form.io JS library re-written for backend node.js use
 
 # Usage
+
+npm install
+
+npm start
+
 ```
 let formio = new Formio('https://api.example.com');
 formio.loadSubmissions('user', { 'data.username': 'demo' }).then((submissions) => {
